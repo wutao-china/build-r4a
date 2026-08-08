@@ -15,7 +15,7 @@
 
 # Add a feed source
 echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
-echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
+#echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 
 # 32MB
 sed -i 's/reg = <0x50000 0xfb0000>/reg = <0x50000 0x1fb0000>/g' target/linux/ramips/dts/mt7621_xiaomi_mi-router-4a-gigabit.dts
